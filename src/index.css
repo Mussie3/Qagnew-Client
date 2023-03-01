@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+@font-face {
+  font-family: "MaruBuri";
+  src: local("MaruBuri"),
+   url("./assets/MaruBuri-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "MaruBuri";
+  src: local("MaruBuri"),
+   url("./assets/MaruBuri-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "MaruBuri";
+  src: local("MaruBuri"),
+   url("./assets/MaruBuri-SemiBold.ttf") format("truetype");
+  font-weight: medium;
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+   url("./assets/Comfortaa-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+.scrollhost {
+  scrollbar-width: none;
+ -ms-overflow-style: none;
+}
+
+.scrollhost::-webkit-scrollbar {
+ display: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
